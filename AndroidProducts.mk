@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2017-2018 The exTHmUI Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,10 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#
+# This file sets variables that control the way modules are built
+# thorughout the system. It should not be used to conditionally
+# disable makefiles (the proper mechanism to control what gets
+# included in a build is to use PRODUCT_PACKAGES in a product
+# definition file).
+#
+
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/exthm_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_gemini-user \
+    exthm_gemini-eng \
     exthm_gemini-userdebug \
-    exthm_gemini-eng
+    exthm_gemini-user
+    exthm_gemini-user
