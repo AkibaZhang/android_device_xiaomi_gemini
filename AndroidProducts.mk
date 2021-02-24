@@ -28,4 +28,3 @@ COMMON_LUNCH_CHOICES := \
     exthm_gemini-eng \
     exthm_gemini-userdebug \
     exthm_gemini-user
-    
