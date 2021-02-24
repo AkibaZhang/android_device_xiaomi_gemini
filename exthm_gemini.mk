@@ -40,9 +40,9 @@ TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="platina" \
-    TARGET_DEVICE="platina" \
-    PRIVATE_BUILD_DESC="gemini-user 10 QKQ1.190910.002 V11.0.1.0.QDTCNXM release-keys"
+    PRODUCT_NAME="gemini" \
+    TARGET_DEVICE="gemini" \
+    PRIVATE_BUILD_DESC="gemini-user 10 QKQ1.190910.002 V10.2.2.0.OAAMIXM release-keys"
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
 
