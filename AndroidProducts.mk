@@ -23,9 +23,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/exthm_gemini.mk
-
 COMMON_LUNCH_CHOICES := \
-    exthm_gemini-eng \
+    exthm_gemini-user \
     exthm_gemini-userdebug \
-    exthm_gemini-user
+    exthm_gemini-eng
     
