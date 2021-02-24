@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gemini.mk
+    $(LOCAL_DIR)/exthm_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gemini-user \
-    lineage_gemini-userdebug \
-    lineage_gemini-eng
+    exthm_gemini-user \
+    exthm_gemini-userdebug \
+    exthm_gemini-eng
