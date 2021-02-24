@@ -19,4 +19,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     lineage_gemini-user \
     lineage_gemini-userdebug \
-    lineage_gemini-eng
+    lineage_gemini-eng 
